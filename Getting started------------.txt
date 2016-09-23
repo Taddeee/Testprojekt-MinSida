@@ -1,0 +1,4 @@
+1, CMD
+2, NPM init
+3, NPM install
+4, GULP
