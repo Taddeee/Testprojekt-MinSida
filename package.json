@@ -35,5 +35,13 @@
     "jquery": "^3.1.0",
     "require-dir": "^0.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taddeee/Testprojekt-MinSida.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Taddeee/Testprojekt-MinSida/issues"
+  },
+  "homepage": "https://github.com/Taddeee/Testprojekt-MinSida#readme",
   "description": ""
 }
