@@ -4,19 +4,19 @@ body {
 	color: white;
 }
 
-div#outside {
+.outside {
 	height: 100%;
 	width: 80%;
 	box-shadow: 0px 0px 50px 5px #000;
 	margin: 0 auto;
 }
 
-header#head {
+header.head {
 	background-image: url("../images/sky.jpg");
 	height: 150px;
 }
 
-nav#nav {
+nav.nav {
 	background-color: #333;
 	display: table;
 	width: 100%;
@@ -88,31 +88,31 @@ li.dropdown-content-item {
     display: block;
 }
 
-div#picture{
+.picture{
 	background-attachment: fixed;
     background-position: center; 
 	background-image: url("../images/natur.jpg");
 	height: 500px;
 }
 
-div#body-content1 {
+.body-content1 {
 	background: black;
 	height: 50px;
 }
 
-div#body-content2 {
+.body-content2 {
 	background-attachment: fixed;
     background-position: center; 
 	background-image: url("../images/drop.jpg");
 	height: 600px;
 }
 
-div#body-content3 {
+.body-content3 {
 	background: black;
 	height: 50px;
 }
 
-div#footer {
+.footer {
 	background: orange;
 	height: 100px;
 }
