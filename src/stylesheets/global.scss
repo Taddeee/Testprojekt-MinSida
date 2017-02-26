@@ -1,27 +1,24 @@
 body {
-	margin:0 auto;
+	margin: 0 auto;
 	background-color:#fc5219;
 	color:white;
-}
-
-div {
-	margin:0 auto;
 }
 
 div#outside {
 	height: 100%;
 	width: 80%;
-	box-shadow: 0px 0px 50px 5px #000;
     -webkit-box-shadow: 0px 0px 50px 5px #000;
-    -moz-box-shadow: 0px 0px 50px 5px #000;
+    -moz-box-shadow: 0px 0px 50px 5px #000;	
+	box-shadow: 0px 0px 50px 5px #000;
+	margin: 0 auto;
 }
 
-div#head {
+header#head {
 	background-image: url("../content/sky.jpg");
 	height: 150px;
 }
 
-div#nav {
+nav#nav {
 	background-color: #333;
 	display: table;
 	width: 100%;
@@ -31,21 +28,19 @@ div#nav {
 ul {
 	background-color: #333;
 	list-style-type: none;
-	margin:0;
+	margin: 0;
 	padding: 0;
-	overflow:hidden;
+	overflow: hidden;
 }
 
-
 li {
-	float:left;
-	border-right:1px solid #000;
-	min-width: 90px;
+	display: inline-block;
+	border-right: 1px solid #000;
 }
 
 li a {
 	color: white;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none
@@ -55,9 +50,13 @@ li a {
 	background-color: #000;
 }
 
-
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, 
+.dropdown:hover .dropbtn {
     background-color: #111;
+}
+
+.dropbtn {
+	pointer-events: none;
 }
 
 li.dropdown {
@@ -68,20 +67,24 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #333;
-    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+
+li.dropdown-content-item {
+	display: block;
 }
 
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-    text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #111}
+.dropdown-content a:hover {
+	background-color: #111
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -91,7 +94,6 @@ div#picture{
     background-position: center; 
 	background-image: url("../content/natur.jpg");
 	height: 500px;
-
 }
 
 div#body-content1 {
