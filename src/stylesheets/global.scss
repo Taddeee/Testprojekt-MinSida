@@ -3,9 +3,9 @@ body {
 	background-color:#fc5219;
 	color:white;
 }
+
 div {
 	margin:0 auto;
-
 }
 
 div#outside {
@@ -15,10 +15,12 @@ div#outside {
     -webkit-box-shadow: 0px 0px 50px 5px #000;
     -moz-box-shadow: 0px 0px 50px 5px #000;
 }
+
 div#head {
 	background-image: url("../content/sky.jpg");
 	height: 150px;
 }
+
 div#nav {
 	background-color: #333;
 	display: table;
@@ -26,6 +28,7 @@ div#nav {
 	height: 10px;
 
 }
+
 ul {
 	background-color: #333;
 	list-style-type: none;
@@ -33,11 +36,13 @@ ul {
 	padding: 0;
 	overflow:hidden;
 }
-li{
+
+li {
 	float:left;
 	border-right:1px solid #000;
 	min-width: 90px;
 }
+
 li a {
 	color: white;
 	display: block;
@@ -88,20 +93,24 @@ div#picture{
 	height: 500px;
 
 }
+
 div#body-content1 {
-background: black;
-height: 50px;
+	background: black;
+	height: 50px;
 }
+
 div#body-content2 {
 	background-attachment: fixed;
     background-position: center; 
 	background-image: url("../content/drop.jpg");
 	height: 600px;
 }
+
 div#body-content3 {
-background: black;
-height: 50px;
+	background: black;
+	height: 50px;
 }
+
 div#footer {
 	background: orange;
 	height: 100px;
